@@ -1,0 +1,155 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "raleway";
+}
+
+
+/* ############################################################ */
+/* ###################### -- HEADER -- ######################## */
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    height: 107px;
+    background: #76BEBE;
+}
+
+header a {
+    font-style: normal;
+    font-size: 20px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+header a:hover {
+    opacity: 0.5;
+}
+
+
+/* ############################################################ */
+/* ###################### -- MAIN -- ########################## */
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+main img {
+    margin: 0 auto;
+}
+
+main div {
+    width: max-content;
+    
+}
+
+main h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #CF509C;
+    margin: 0;
+}
+
+main h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* ############################################################ */
+/* ###################### -- SECTION -- ########################## */
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    background: #F5F5F5;
+}
+
+section div {
+    padding: 1rem;
+}
+
+#secForm {
+    display: grid;
+    grid-auto-flow: row;
+    
+}
+
+#secForm label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 0.2rem;
+}
+
+#secForm input {
+    padding: 8px 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color:#000000;
+    margin-bottom: 1rem;
+}
+
+#secForm button {
+    width: 306px;
+    padding: 8px 10px;
+    background: rgba(118, 190, 190, 1);
+    border-radius: 10px;
+    border: 0;
+    color: #FFF;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#secForm button:hover {
+    background: rgba(118, 190, 190, 0.8);
+}
+
+#dataTable {
+    border-collapse: collapse;
+}
+
+#dataTable thead {
+    background: #3E3D3D;
+    border: 1px solid #767373;
+}
+
+#dataTable thead th {
+    font-family: 'Alegreya Sans SC';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    padding: 3px 10px;
+    text-align: center;
+    border: 1px solid #767373;
+}
+
+#dataTable tbody td {
+    font-family: 'Alegreya Sans SC';
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    padding: 3px 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#dataTable tbody td img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+

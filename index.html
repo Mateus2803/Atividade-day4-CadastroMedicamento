@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya Sans SC">
+    <title>Pericles Delivery</title>
+
+</head>
+<body>
+    
+    <header>
+        <a href="">Home</a>
+        <a href="">Cadastro de Medicamentos</a>
+        <a href="">Cadastro de Vacinas</a>
+        <a href="">Cadastro de Cosméticos</a>
+    </header>
+
+    <main>
+        
+            <img src="img/logo.svg" alt="">
+        
+        <div>
+            <h1>Cadastro de Medicamentos</h1>
+            <h2>Farmácia da Gente</h2>
+        </div>
+    </main>
+
+    <section>
+        <div>
+            <form id="secForm" onsubmit="$M.Adicionar();" >
+                <label for=""> Nome do Medicamento </label>
+                <input type="text" id="fName" name="fName" required>
+                
+                <label for=""> Quantidade Disponível </label>
+                <input type="number" id="fQtd" name="fQtd" required>
+
+                <label for=""> Classe de Medicamento </label>
+                <input type="text" id="fClassMedicine" name="" required>
+
+                <button type="submit"> Cadastrar </button>
+            </form>
+        </div>
+        <div>
+            <table id="dataTable" border="0">
+                <thead>
+                    <th> ID </th>
+                    <th> Medicamento </th>
+                    <th> Quantidade </th>
+                    <th> Classe de Medicamento </th>
+                    <th> Remover </th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
